@@ -12,7 +12,9 @@ a:focus-visible,button:focus-visible{outline:2px solid #b5301a;outline-offset:3p
 [lang="zh-CN"] .t-display{line-height:1.18;letter-spacing:-0.02em}
 [lang="zh-CN"] .t-section{line-height:1.05;letter-spacing:-0.03em}
 [lang="zh-CN"] .t-h1{line-height:1.15;letter-spacing:-0.02em}
-.mt-hero{margin-top:150px}.mt-xl{margin-top:200px}.mt-m{margin-top:96px}
+.mt-hero{margin-top:56px}.mt-xl{margin-top:200px}.mt-m{margin-top:96px}
+.slogan .t-display{font-size:clamp(2.5rem,min(6.4vw,11.5vh),6rem)}
+@media (min-width:641px) and (max-height:820px){.mt-hero{margin-top:32px}}
 .hdr{display:grid;grid-template-columns:auto minmax(0,1fr) auto;grid-template-areas:'logo nav lang';align-items:center;gap:16px 32px;font-size:15px}
 .hdr-logo{grid-area:logo}.hdr-logo img{height:44px}
 .hdr-nav{grid-area:nav;justify-self:center;display:flex;flex-wrap:wrap;gap:8px 28px}
@@ -71,7 +73,7 @@ a:focus-visible,button:focus-visible{outline:2px solid #b5301a;outline-offset:3p
 .hdr{grid-template-columns:minmax(0,1fr) auto;grid-template-areas:'logo lang' 'nav nav';gap:12px 16px}
 .hdr-logo img{height:36px}
 .hdr-nav{justify-self:stretch;justify-content:space-between;gap:8px 16px;padding-top:12px;border-top:1px solid #e3cdbd}
-.mt-hero{margin-top:72px}.mt-xl{margin-top:120px}.mt-m{margin-top:64px}
+.mt-hero{margin-top:48px}.mt-xl{margin-top:120px}.mt-m{margin-top:64px}
 .foot-in{padding:56px 20px 24px}
 .logo-tile{width:64px;height:64px}
 }
